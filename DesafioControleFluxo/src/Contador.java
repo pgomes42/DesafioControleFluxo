@@ -20,12 +20,12 @@ public class Contador {
         if (parametroUm > parametroDois) {
             throw new ParametrosInvalidosException();
         }
-        int contagem = parametroDois - parametroUm + 1;
+        int contagem = parametroDois - parametroUm ;
         if (contagem >= 18)
             contagem =18;
           
         for (int i = 0; i < contagem; i++) {
-            System.out.println("Imprimindo o número " + (parametroUm + i));
+            System.out.println("Imprimindo o número " + (1 + i));
         }
     }
 
